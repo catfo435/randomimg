@@ -27,7 +27,7 @@ export default class Category extends Component {
     fetchImageUrl(category) {
 
         const apiURL = `https://api.api-ninjas.com/v1/randomimage?category=${category}`
-        const apiKEY = process.env.REACT_APP_APIKEY
+        const apiKEY = "Ahrf2hfMtvO0aaGf1NPNdvCqoEzfEBc3ocFurfGG"
 
         fetch(apiURL, {
             headers: {
